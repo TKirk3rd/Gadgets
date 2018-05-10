@@ -26,11 +26,11 @@
 <UserPref name="feedTitle1" display_name="Feed 1: Title" datatype="string" default_value="Slick Deals"/>
 <UserPref name="feed1" display_name="Feed 1: URL" datatype="string" default_value="http://feeds.feedburner.com/SlickdealsnetFP?format=xml"/>
 
-<UserPref name="feedTitle2" display_name="Feed 2: Title" datatype="string" default_value="http://feeds.reuters.com/reuters/topNews"/>
-<UserPref name="feed2" display_name="Feed 2: URL" datatype="string" default_value="News"/>
+<UserPref name="feedTitle2" display_name="Feed 2: Title" datatype="string" default_value="News"/>
+<UserPref name="feed2" display_name="Feed 2: URL" datatype="string" default_value="http://feeds.reuters.com/reuters/topNews"/>
 
-<UserPref name="feedTitle3" display_name="Feed 3: Title" datatype="string" default_value=""/>
-<UserPref name="feed3" display_name="Feed 3: URL" datatype="string" default_value=""/>
+<UserPref name="feedTitle3" display_name="Feed 3: Title" datatype="string" default_value="Reddit"/>
+<UserPref name="feed3" display_name="Feed 3: URL" datatype="string" default_value="http://www.reddit.com/.rss"/>
 
 <UserPref name="feedTitle4" display_name="Feed 4: Title" datatype="string" default_value=""/>
 <UserPref name="feed4" display_name="Feed 4: URL" datatype="string" default_value=""/>
