@@ -284,7 +284,8 @@ function getQuote(data) {
   
   
   //For price: find decimal and truncate extra digits
-  Price = Price.substring(0,Price.indexOf(".")+3)
+  //This is no longer needed with the Google Spreadsheet doing the formatting
+  //Price = Price.substring(0,Price.indexOf(".")+3)
   
     
 
