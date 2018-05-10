@@ -20,7 +20,8 @@
   <Require feature="dynamic-height" />
 </ModulePrefs>
 
-    
+    <UserPref name="showGoogle" display_name="Show Google Search" datatype="bool" default_value="True"/>
+	<UserPref name="showStartPage" display_name="Show StartPage Search" datatype="bool" default_value="False"/>
     
  
     
@@ -43,7 +44,7 @@
 
 <div id="edit" style="display:none">
 <form id="formEdit">
-<a href="javascript:showEdit()">
+<br>
 
 <textarea name=watchlist id=watchlist style="width:390" rows=3 wrap=soft>
 https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo8j_mEiMYyv_TD9VQ7sfyMpLETe21cmvRrtAp80lFEM1EyLR/pub?output=csv
@@ -59,27 +60,26 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
   
 <Center>
 
-<form method="get" action="http://www.google.com/search" style="display:inline" target="_blank">
+
+
+
+    <form method="get" action="http://www.google.com/search" style="display:hidden" target="_blank">
     <input name="q" id="searchbox" autocomplete="on" size="25" type="text" value="">
     <input type=submit value="Google Search" style="height:25px; width:110px">
     <input type="hidden" name="hl" value="en"></form>
 <br>
-  
 
- <form action="https://www.startpage.com/do/asearch" method="POST" name="blah" id="search_form" autocomplete="off" target="_blank" style="display:inline"> 
+
+  <form action="https://www.startpage.com/do/asearch" method="POST" name="blah" id="search_form" autocomplete="off" target="_blank" style="display:inline"> 
   <input type="text" name="query" id="query" size="25"> 
   <input type="submit" value="StartPg Search" id="submit1" style="height:25px; width:110px"></form>
 
   
 
-</table>
-
+ 
   
   
   
-  
-  
-<center>
 
 
 <table>
@@ -194,9 +194,12 @@ function showEdit(){
     
   } else {
     document.getElementById('edit').style.display = "block";
-    
+ 
   }
-  
+ 
+
+
+ 
 }
 
 function add() {
