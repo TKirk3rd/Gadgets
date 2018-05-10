@@ -60,14 +60,14 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 <Center>
 
 <form method="get" action="http://www.google.com/search" style="display:inline" target="_blank">
-    <input name="q" id="searchbox" autocomplete="on" size="35" type="text" value="">
+    <input name="q" id="searchbox" autocomplete="on" size="30" type="text" value="">
     <input type=submit value="Google Search" style="height:30px; width:110px">
     <input type="hidden" name="hl" value="en"></form>
 <br>
   
 
  <form action="https://www.startpage.com/do/asearch" method="POST" name="blah" id="search_form" autocomplete="off" target="_blank" style="display:inline"> 
-  <input type="text" name="query" id="query" size="35"> 
+  <input type="text" name="query" id="query" size="30"> 
   <input type="submit" value="StartPg Search" id="submit1" style="height:30px; width:110px"></form>
 
   
