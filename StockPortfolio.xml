@@ -44,7 +44,7 @@
 <div id="edit" style="display:none">
 <form id="formEdit">
 
-<a href="https://docs.google.com/document/d/e/2PACX-1vS8zLX6WaYjmdFV9g3eWnP57nsD6eSFKn3htFlpYsx1op3bgYa9-tqWzmRx_-qp8YYJBJdXrZ05_0mv/pub" target="_blank" ><span style="font-size:11px; font-family:sans-serif;">Customize Stock List...</span></a><br>
+<a href="https://docs.google.com/document/d/e/2PACX-1vS8zLX6WaYjmdFV9g3eWnP57nsD6eSFKn3htFlpYsx1op3bgYa9-tqWzmRx_-qp8YYJBJdXrZ05_0mv/pub" target="_blank" ><span style="font-size:12px; font-family:sans-serif;">Click Here for Stock List Customization Instructions...</span></a><br>
 
 <textarea name=watchlist id=watchlist style="width:390" rows=3 wrap=soft>
 https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo8j_mEiMYyv_TD9VQ7sfyMpLETe21cmvRrtAp80lFEM1EyLR/pub?output=csv
