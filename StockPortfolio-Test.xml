@@ -61,7 +61,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 
 <form method="get" action="http://www.google.com/search" style="display:inline" target="_blank">
     <input name="q" id="searchbox" autocomplete="on" size="35" type="text" value="">
-    <input type=submit value="Google Search" style="height:10px; width:200px">
+    <input type=submit value="Google Search" style="height:20px; width:100px">
     <input type="hidden" name="hl" value="en"></form>
 <br>
   
