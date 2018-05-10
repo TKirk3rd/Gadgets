@@ -5,6 +5,7 @@
       directory_title="Fark RSS Feeds"
       description="This gadget is for all you farkers out there. This version consolidates all of the fark feeds, into one gadget. Choose the feeds that you want to receive in options, and they show up on their own tabs. Click the tabs to get to the different areas of fark (sports, geek, business, etc). Click the Headline to get to comments. From there, you can click through to the article. "
       author="fark.com"
+	  titleUrl="http://fark.com"
 	  author_affiliation="Personal"
       author_location="USA"
 	  thumbnail="https://tkirk3rd.github.io/Gadgets/images/Fark_Thumb.gif"
