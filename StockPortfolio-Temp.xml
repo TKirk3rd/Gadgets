@@ -70,7 +70,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 <form action="https://www.startpage.com/do/asearch" method="POST" name="blah" id="search_form" autocomplete="off" target="_blank" style="display:inline"> 
   <input type="text" name="query" id="query" size="25"> 
   <input type="submit" value="StartPg Search" id="submit1" style="height:25px; width:110px"></form>
-</div>
+
   
   
 <center>
@@ -78,8 +78,8 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 
 <table>
 <tr><th colspan=9><hr size=3></th></tr>  
-</div>
 
+</div>
 <tr><td align=left colspan=9><img src="http://raw.githubusercontent.com/TKirk3rd/Gadgets/master/images/legend.gif" alt=""> <span style="font-size:75%" id="ChartTitle"></span>
 <tr><th colspan=9><a id="ChartLink" href="http://www.nasdaq.com/symbol/vti" target="_blank"><img src="http://charting.nasdaq.com/ext/charts.dll?2-1-17-0-0-008001730-03NA000000SPY-&SF:1|11-HC:1-HO:SE-BG=FFFFFF-BT=0-WD=390-HT=243-" name="Chart" width=375/></a></th></tr>
 <tr class="CRow">
