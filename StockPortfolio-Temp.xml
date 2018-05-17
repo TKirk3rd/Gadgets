@@ -28,18 +28,6 @@
 
   
 <STYLE TYPE="text/css">
-#GoogleDiv{
-    width: 100%;
-    padding: 1px 0;
-    text-align: center;
-}
-
-#StartPageDiv{
-    width: 100%;
-    padding: 1px 0;
-    text-align: center;
-}
-
 <!--
 .header { background-color:d4e6fc; font-weight:'bold'; }
 .CRow { background-color:ffffff; font-size:10;}
