@@ -39,8 +39,8 @@
 
   
 <align=right>    
-<a href="javascript:showEdit()"><div style="font-size:11px; font-family:sans-serif; text-align:right; display:inline;">Edit</div></a>    
-<a href="javascript:showSearch()"><div style="font-size:11px; font-family:sans-serif; text-align:right; display:inline;">Search</div></a>    
+<a href="javascript:showEdit()"><div style="font-size:11px; font-family:sans-serif; display:inline; text-align:right;">Edit</div></a>    
+<a href="javascript:showSearch()"><div style="font-size:11px; font-family:sans-serif; display:inline; text-align:right;">Search</div></a>    
 
 <div id="edit" style="display:none">
 <form id="formEdit">
@@ -73,14 +73,14 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 </div>
   
   
-  
-  
 <center>
 
 
 <table>
 <tr><th colspan=9><hr size=3></th></tr>  
-<tr><td align=left colspan=9><img src="http://biblestudyfiles.com/files/legend.gif" alt=""> <span style="font-size:75%" id="ChartTitle"></span>
+</div>
+
+<tr><td align=left colspan=9><img src="http://raw.githubusercontent.com/TKirk3rd/Gadgets/master/images/legend.gif" alt=""> <span style="font-size:75%" id="ChartTitle"></span>
 <tr><th colspan=9><a id="ChartLink" href="http://www.nasdaq.com/symbol/vti" target="_blank"><img src="http://charting.nasdaq.com/ext/charts.dll?2-1-17-0-0-008001730-03NA000000SPY-&SF:1|11-HC:1-HO:SE-BG=FFFFFF-BT=0-WD=390-HT=243-" name="Chart" width=375/></a></th></tr>
 <tr class="CRow">
 <th onmouseover="roll2('Chart', '2-1-17-0-0-009001700-03NA000000', '-&SF:1|11-HC:1-HO:SE-BG=FFFFFF-BT=0-WD=390-HT=243-'); style.color='blue';" onmouseout="style.color='000000'">1Day</td>
