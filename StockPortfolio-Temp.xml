@@ -53,7 +53,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 <br>
 <input type="button" name="Add" value="Update" onClick="add();">  
 </form>
-<center><table><tr><th colspan=9><hr size=3></th></tr></table></center>
+<center><table><tr><th><hr size=3> </th></tr></table></center>
 
 </div>
     
@@ -73,7 +73,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
   <input type="text" name="query" id="query" size="25"> 
   <input type="submit" value="StartPg Search" id="submit1" style="height:25px; width:110px"></form>
  
-<center><table><tr><th colspan=9><hr size=3></th></tr></table></center>
+<center><table><tr><th><hr size=3> </th></tr></table></center>
   
 </div>
   
