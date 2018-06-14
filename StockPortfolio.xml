@@ -38,6 +38,7 @@
  p {
 	display: block;
 	white-space: normal; 
+	margin: 1px 0;
    }
 </style>
   
