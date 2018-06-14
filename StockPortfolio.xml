@@ -36,7 +36,7 @@
 
 <style>
  p {
-     white-space: pre-line; /* collapse WS, preserve LB */
+     white-space: normal; 
    }
 </style>
   
