@@ -65,7 +65,6 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
     <input type=submit value="Google Search" style="height:25px; width:110px">
     </form>
 </span>
-<br>
 <span>
 <form action="https://www.startpage.com/do/asearch" method="POST" name="blah" id="search_form" autocomplete="off" target="_blank" style="display:inline"> 
   <input type="text" name="query" id="query" size="25"> 
