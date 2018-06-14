@@ -36,9 +36,10 @@
 
 <style>
  p {
-	display: block;
-	line-height:10px;
-	white-space: normal; 
+	display: block; /* makes it have a width */
+	content: ""; /* clears default height */
+	margin-top: 10; /* change this to whatever height you want it */
+	
    }
 </style>
   
