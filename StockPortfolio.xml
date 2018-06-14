@@ -37,8 +37,8 @@
 <style>
  p {
 	display: block;
+	line-height:10px;
 	white-space: normal; 
-	margin: 1px 0;
    }
 </style>
   
