@@ -37,8 +37,8 @@
 <style>
  p {
 	display:block; 
-	margin-top:10px; 
-	line-height:22px;
+	margin-top:5px; 
+	line-height:5px;
 }
 </style>
   
