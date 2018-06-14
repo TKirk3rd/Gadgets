@@ -37,7 +37,8 @@
 <style>
  p1 {
 	display: block;
-
+	margin: 10px 0;
+	content: "";
 
 }
 </style>
