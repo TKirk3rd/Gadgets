@@ -39,6 +39,7 @@
 	display:block; 
 	margin-top:5px; 
 	line-height:5px;
+	white-space: pre-line;
 }
 </style>
   
