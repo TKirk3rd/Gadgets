@@ -37,7 +37,7 @@
 <style>
  p {
 	display: block;
-	white-space: pre-wrap;
+	white-space: nowrap;
    }
 </style>
   
