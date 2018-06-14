@@ -130,8 +130,9 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 
 p span 
 {
-    white-space: normal;
-	display: block;
+    white-space: pre-line;
+	
+	
 }
 
 
