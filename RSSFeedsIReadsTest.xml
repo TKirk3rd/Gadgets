@@ -177,7 +177,10 @@
     var ft9 = _trim(prefs.getString("feedTitle9"));
 	var ft10 = _trim(prefs.getString("feedTitle10"));
 	var ft11 = _trim(prefs.getString("feedTitle11"));
+	
+	var f12 = "http://feeds.feedburner.com/SlickdealsnetFP?format=xml";
 	var ft12 = "Daily Blog";
+	
 	
 	
 	
@@ -218,6 +221,9 @@
     }
     if (f11 != "") {
       tabs.addDynamicTab(((ft11 == "") ? "Feed 11" : ft11), _IG_Callback(callbackTab, f11));
+    }
+	if (f12 != "") {
+      tabs.addDynamicTab(((ft12 == "") ? "Feed 12" : ft12), _IG_Callback(callbackTab, f12));
     }
 
 	
