@@ -197,7 +197,7 @@
         f12 = "http://feeds.feedburner.com/TheWhiteCoatInvestor/";
         break;
     case 4:
-        f12 = "http://vanguardblog.com/feed";
+        f12 = "http://feeds.reuters.com/reuters/topNews";
         break;
     case 5:
         f12 = "http://feeds.feedburner.com/mrmoneymustache";
