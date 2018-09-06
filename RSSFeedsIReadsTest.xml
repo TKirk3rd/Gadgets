@@ -178,9 +178,39 @@
 	var ft10 = _trim(prefs.getString("feedTitle10"));
 	var ft11 = _trim(prefs.getString("feedTitle11"));
 	
-	var f12 = "http://feeds.feedburner.com/SlickdealsnetFP?format=xml";
-	var ft12 = "Daily Blog";
 	
+	var ft12 = "Daily Blog";
+	var f12 = "http://feeds.feedburner.com/SlickdealsnetFP?format=xml";
+
+	
+	switch (new Date().getDay()) {
+    case 0:
+        f12 = "https://getrichslowly.org/feed/";
+        break;
+    case 1:
+        f12 = "http://feeds.feedburner.com/TheFinanceBuff";
+        break;
+    case 2:
+        f12 = "https://vanguardblog.com/feed";
+        break;
+    case 3:
+        f12 = "https://feeds.feedburner.com/TheWhiteCoatInvestor/";
+        break;
+    case 4:
+        f12 = "https://www.madfientist.com/feed";
+        break;
+    case 5:
+        f12 = "https://feeds.feedburner.com/mrmoneymustache";
+        break;
+    case 6:
+        f12 = "https://old.reddit.com/r/financialindependence/top/?sort=top&t=week.rss";
+	}
+	
+	
+	
+	
+	
+
 	
 	
 	
