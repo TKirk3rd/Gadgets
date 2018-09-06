@@ -177,6 +177,9 @@
     var ft9 = _trim(prefs.getString("feedTitle9"));
 	var ft10 = _trim(prefs.getString("feedTitle10"));
 	var ft11 = _trim(prefs.getString("feedTitle11"));
+	var ft12 = "Daily Blog";
+	
+	
 	
 
     
