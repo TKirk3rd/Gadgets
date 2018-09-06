@@ -197,7 +197,7 @@
         f12 = "https://feeds.feedburner.com/TheWhiteCoatInvestor/";
         break;
     case 4:
-        f12 = "https://www.madfientist.com/feed";
+        f12 = "http://feeds.feedburner.com/SlickdealsnetFP?format=xml";
         break;
     case 5:
         f12 = "https://feeds.feedburner.com/mrmoneymustache";
