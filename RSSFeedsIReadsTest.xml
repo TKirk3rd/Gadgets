@@ -197,7 +197,7 @@
         f12 = "https://feeds.feedburner.com/TheWhiteCoatInvestor/";
         break;
     case 4:
-        f12 = "https://old.reddit.com/r/financialindependence/top/?sort=top&t=week.rss";
+        f12 = "https://www.reddit.com/r/financialindependence/top/?sort=top&t=week.rss";
         break;
     case 5:
         f12 = "https://feeds.feedburner.com/mrmoneymustache";
