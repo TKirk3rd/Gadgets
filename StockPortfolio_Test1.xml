@@ -60,8 +60,8 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
   
 <Center>
 <form action="https://duckduckgo.com/" style="display:inline" target="_blank">
-  <input type="text" name="q" autocomplete="on" size="25" type="text" value="">
-  <button type="submit" style="height:25px; width:110px">Search</button>
+  <input type="text" name="q" autocomplete="on" size="30" type="text" value="">
+  <button type="submit" style="height:25px; width:100px">Search</button>
 </form>
   
 <center>
