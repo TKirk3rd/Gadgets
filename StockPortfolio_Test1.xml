@@ -59,12 +59,11 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
   
   
 <Center>
-
-<form method="get" action="https://duckduckgo.com/search" style="display:inline" target="_blank">
-    <input name="q" id="searchbox" autocomplete="on" size="25" type="text" value="">
-    <input type=submit value="Google Search" style="height:25px; width:110px">
-    <input type="hidden" name="hl" value="en"></form>
-  
+<form action="https://duckduckgo.com/" style="display:inline" target="_blank">
+  <input type="text" name="q">
+  <input type="hidden" name="sites" value="janosgyerik.com">
+  <button type="submit">Search</button>
+</form>
   
 <center>
 
