@@ -568,10 +568,10 @@
 						   topicicon = '<span class="ttag topic54"></span>';
 						   break;
 						case '[Woofday]':
-						   topicicon = '<span class="ttag topic54"></span>';
+						   topicicon = '<span class="ttag topic55"></span>';
 						   break;
 						case '[Vintage]':
-						   topicicon = '<span class="ttag topic54"></span>';
+						   topicicon = '<span class="ttag topic56"></span>';
 						   break;
                         default:
                            topicicon = topic;
