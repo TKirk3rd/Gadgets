@@ -148,6 +148,8 @@
 			.topic52 {background-position: 0 -676px;} /* Murica */
 			.topic53 {background-position: 0 -689px;} /* Creepy */
 			.topic54 {background-position: 0 -702px;} /* Fake */
+			.topic55 {background-position: 0 -715px;} /* WoofDay */
+			.topic56 {background-position: 0 -728px;} /* Vintage */
 
 
 			
@@ -565,7 +567,12 @@
 						case '[Fake]':
 						   topicicon = '<span class="ttag topic54"></span>';
 						   break;
-
+						case '[Woofday]':
+						   topicicon = '<span class="ttag topic54"></span>';
+						   break;
+						case '[Vintage]':
+						   topicicon = '<span class="ttag topic54"></span>';
+						   break;
                         default:
                            topicicon = topic;
                            break;
