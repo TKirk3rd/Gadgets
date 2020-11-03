@@ -59,14 +59,10 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
   
   
 <Center>
-<div id="Footer">
-<div id="Footer">
-<form id="SiteSearch" action="https://duckduckgo.com/search" method="get">
-<div>
-<input name="q" type="text" value="" style="margin-right: 8px; width: 66%;" />
-<input type="submit" value="Search" />
-</div>
-</form>
+	<form method="get" action="https://duckduckgo.com/" target="blank">
+	<input size="40" name="q">
+	<input type="submit" value="Search">
+	</form>
 
 <!--
 <form action="https://www.startpage.com/do/asearch" method="POST" name="blah" id="search_form" autocomplete="off" target="_blank" style="display:inline"> 
