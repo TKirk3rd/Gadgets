@@ -122,10 +122,10 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 
     
             
-var GraphParam1 = "2-1-17-0-0-009001700-03NA000000";
-var GraphParam2 = "-&SF:1|11-HC:1-HO:SE-BG=FFFFFF-BT=0-WD=390-HT=243-";
-var CurrentTicker = "SPY";
-var CurrentTickerName = "S&P 500"
+var GraphParam1 = "https://markets.money.cnn.com/services/api/chart/snapshot_chart_api.asp?symb=";
+var GraphParam2 = "";
+var CurrentTicker = "VTI";
+var CurrentTickerName = "Total Stock Market"
 var ColorCnt = 0;    
     
 var watchlist = document.getElementById('watchlist').value;
