@@ -29,7 +29,7 @@
   
 <STYLE TYPE="text/css">
 <!--
-.header { background-color:e6ecf2; font-weight:'bold'; }
+.header { background-color:b8cce4; font-weight:'bold'; }
 .CRow { background-color:ffffff; font-size:10;}
 "//-->
 </STYLE>    
@@ -290,11 +290,11 @@ function getQuote(data) {
 
   newrow.align = "right";
   
-  var TempText = "this.style.background='#e6ecf2'; roll('Chart', '" + Symbol + "', '" + StockName + "')";
+  var TempText = "this.style.background='#b8cce4'; roll('Chart', '" + Symbol + "', '" + StockName + "')";
   newrow.setAttribute("onmouseover", TempText, 0); 
    
   if(ColorCnt == 1) {ColorCnt=0; newrow.style.background = '#e8eef7'; newrow.setAttribute("onMouseOut", "this.style.background='#e8eef7';", 0); }  
-  else {ColorCnt=1; newrow.style.background = '#f2f2ff'; newrow.setAttribute("onMouseOut", "this.style.background='#f2f2ff';", 0); }
+  else {ColorCnt=1; newrow.style.background = '#e6ecf2'; newrow.setAttribute("onMouseOut", "this.style.background='#e6ecf2';", 0); }
   
                               
   newcell = newrow.insertCell(-1); newcell.innerHTML = '<A target="_new" href="http://www.google.com/finance?q=' + escape(Symbol) + '">' + Symbol + '</A>'; 
