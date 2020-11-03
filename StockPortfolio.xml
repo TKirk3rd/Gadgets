@@ -59,11 +59,11 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
   
   
 <Center>
-<form method="get" action="http://www.google.com/search" style="display:inline" target="_blank">
-    <input name="q" id="searchbox" autocomplete="on" size="25" type="text" value="">
-    <input type=submit value="Google Search" style="height:25px; width:110px">
-    <input type="hidden" name="hl" value="en"></form>
-<br>
+//<form method="get" action="http://www.google.com/search" style="display:inline" target="_blank">
+//    <input name="q" id="searchbox" autocomplete="on" size="25" type="text" value="">
+//   <input type=submit value="Google Search" style="height:25px; width:110px">
+//    <input type="hidden" name="hl" value="en"></form>
+//<br>
 <form action="https://www.startpage.com/do/asearch" method="POST" name="blah" id="search_form" autocomplete="off" target="_blank" style="display:inline"> 
   <input type="text" name="query" id="query" size="25"> 
   <input type="submit" value="StartPg Search" id="submit1" style="height:25px; width:110px"></form>
@@ -81,13 +81,13 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 <tr><th colspan=9><a id="ChartLink" href="http://www.nasdaq.com/symbol/vti" target="_blank"><img src="https://markets.money.cnn.com/services/api/chart/snapshot_chart_api.asp?symb=SPY" name="Chart" width=375/></a></th></tr>
 <tr class="CRow">
 
-<th onmouseover="roll2('Chart', 'https://markets.money.cnn.com/services/api/chart/snapshot_chart_api.asp?symb=', ''); style.color='blue';" onmouseout="style.color='000000'" colspan=2>Current</td>
-<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=0&mn=1&dy=0&i=t9626227572c'); style.color='blue';" onmouseout="style.color='000000'">1Mo</td>
-<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=0&mn=3&dy=0&i=t9626227572c'); style.color='blue';" onmouseout="style.color='000000'">3Mo</td>
-<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&st=2020-01-01&i=t4990287566c'); style.color='blue';" onmouseout="style.color='000000'">YTD</td>
-<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=1&mn=0&dy=0&i=t4417017562c'); style.color='blue';" onmouseout="style.color='000000'">1Yr</td>
-<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=5&mn=0&dy=0&i=t4417017562c'); style.color='blue';" onmouseout="style.color='000000'">5Yr</td>
-<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=10&mn=0&dy=0&i=t4417017562c'); style.color='blue';" onmouseout="style.color='000000'">10Yr</td>
+<th onmouseover="roll2('Chart', 'https://markets.money.cnn.com/services/api/chart/snapshot_chart_api.asp?symb=', ''); style.color='blue';" onmouseout="style.color='000000'" colspan=9>Current</td>
+//<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=0&mn=1&dy=0&i=t9626227572c'); style.color='blue';" onmouseout="style.color='000000'">1Mo</td>
+//<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=0&mn=3&dy=0&i=t9626227572c'); style.color='blue';" onmouseout="style.color='000000'">3Mo</td>
+//<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&st=2020-01-01&i=t4990287566c'); style.color='blue';" onmouseout="style.color='000000'">YTD</td>
+//<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=1&mn=0&dy=0&i=t4417017562c'); style.color='blue';" onmouseout="style.color='000000'">1Yr</td>
+//<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=5&mn=0&dy=0&i=t4417017562c'); style.color='blue';" onmouseout="style.color='000000'">5Yr</td>
+//<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=10&mn=0&dy=0&i=t4417017562c'); style.color='blue';" onmouseout="style.color='000000'">10Yr</td>
 </tr>
 </table>
 
