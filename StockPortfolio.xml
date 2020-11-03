@@ -29,7 +29,7 @@
   
 <STYLE TYPE="text/css">
 <!--
-.header { background-color:b8cce4; font-weight:'bold'; }
+.header { background-color:cad9eb; font-weight:'bold'; }
 .CRow { background-color:ffffff; font-size:10;}
 "//-->
 </STYLE>    
@@ -290,7 +290,7 @@ function getQuote(data) {
 
   newrow.align = "right";
   
-  var TempText = "this.style.background='#b8cce4'; roll('Chart', '" + Symbol + "', '" + StockName + "')";
+  var TempText = "this.style.background='#cad9eb'; roll('Chart', '" + Symbol + "', '" + StockName + "')";
   newrow.setAttribute("onmouseover", TempText, 0); 
    
   if(ColorCnt == 1) {ColorCnt=0; newrow.style.background = '#e8eef7'; newrow.setAttribute("onMouseOut", "this.style.background='#e8eef7';", 0); }  
