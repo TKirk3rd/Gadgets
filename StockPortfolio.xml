@@ -59,10 +59,11 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
   
   
 <Center>
-<form action="https://duckduckgo.com/" style="display:inline" target="_blank">
-  <input type="text" name="q" autocomplete="on" size="30" type="text" value="">
-  <button type="submit" style="height:25px; width:100px">Search</button>
-</form>
+	<form method="get" action="https://duckduckgo.com/" target="blank">
+	<input size="40" name="q">
+	<input type="submit" value="Search">
+	</form>
+  
   
 <center>
 
@@ -72,8 +73,8 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 <tr><td align=left colspan=9><img src="http://raw.githubusercontent.com/TKirk3rd/Gadgets/master/images/legend.gif" alt=""> <span style="font-size:75%" id="ChartTitle"></span>
 <tr><th colspan=9><a id="ChartLink" href="http://www.nasdaq.com/symbol/vti" target="_blank"><img src="https://markets.money.cnn.com/services/api/chart/snapshot_chart_api.asp?symb=SPY" name="Chart" width=375/></a></th></tr>
 <tr class="CRow">
+
 		<!--
-		The charts for different time periods are currently commented out
 		<th onmouseover="roll2('Chart', 'https://markets.money.cnn.com/services/api/chart/snapshot_chart_api.asp?symb=', ''); style.color='blue';" onmouseout="style.color='000000'" colspan=9>Current</td>
 		<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=0&mn=1&dy=0&i=t9626227572c'); style.color='blue';" onmouseout="style.color='000000'">1Mo</td>
 		<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=0&mn=3&dy=0&i=t9626227572c'); style.color='blue';" onmouseout="style.color='000000'">3Mo</td>
@@ -82,6 +83,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 		<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=5&mn=0&dy=0&i=t4417017562c'); style.color='blue';" onmouseout="style.color='000000'">5Yr</td>
 		<th onmouseover="roll2('Chart', 'https://stockcharts.com/c-sc/sc?s=', '&p=D&yr=10&mn=0&dy=0&i=t4417017562c'); style.color='blue';" onmouseout="style.color='000000'">10Yr</td>
 		-->
+
 </tr>
 </table>
 
@@ -126,10 +128,10 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 
     
             
-var GraphParam1 = "2-1-17-0-0-009001700-03NA000000";
-var GraphParam2 = "-&SF:1|11-HC:1-HO:SE-BG=FFFFFF-BT=0-WD=390-HT=243-";
-var CurrentTicker = "SPY";
-var CurrentTickerName = "S&P 500"
+var GraphParam1 = "https://markets.money.cnn.com/services/api/chart/snapshot_chart_api.asp?symb=";
+var GraphParam2 = "";
+var CurrentTicker = "VTI";
+var CurrentTickerName = "Total Stock Market"
 var ColorCnt = 0;    
     
 var watchlist = document.getElementById('watchlist').value;
