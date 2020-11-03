@@ -60,6 +60,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
   
 <Center>
 <div id="Footer">
+<div id="Footer">
 <form id="SiteSearch" action="https://duckduckgo.com/search" method="get">
 <div>
 <input name="q" type="text" value="" style="margin-right: 8px; width: 66%;" />
