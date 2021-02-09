@@ -70,9 +70,9 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 
 <table>
 <tr><th colspan=9><hr size=3></th></tr>  
-<!--<tr><td align=left colspan=9><img src="http://raw.githubusercontent.com/TKirk3rd/Gadgets/master/images/legend2.gif" alt=""> <span style="font-size:75%">S&P 500</span> -->
-<tr><td align=left colspan=9><img src="http://raw.githubusercontent.com/TKirk3rd/Gadgets/master/images/legend.gif" alt=""> <span style="font-size:75%" id="ChartTitle"></span>
-<tr><th colspan=9><a id="ChartLink" href="http://www.nasdaq.com/symbol/vti" target="_blank"><img src="https://markets.money.cnn.com/services/api/chart/snapshot_chart_api.asp?symb=VTI" name="Chart" width=375/></a></th></tr>
+<!--<tr><td align=left colspan=9><img src="https://raw.githubusercontent.com/TKirk3rd/Gadgets/master/images/legend2.gif" alt=""> <span style="font-size:75%">S&P 500</span> -->
+<tr><td align=left colspan=9><img src="https://raw.githubusercontent.com/TKirk3rd/Gadgets/master/images/legend.gif" alt=""> <span style="font-size:75%" id="ChartTitle"></span>
+<tr><th colspan=9><a id="ChartLink" href="https://www.nasdaq.com/symbol/vti" target="_blank"><img src="https://markets.money.cnn.com/services/api/chart/snapshot_chart_api.asp?symb=VTI" name="Chart" width=375/></a></th></tr>
 <tr class="CRow">
 
 		<!--
@@ -94,13 +94,13 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 
 <tr height=5></tr>
 <tr>
-<td><form method="get" action="http://www.google.com/finance" name="f" style="display:inline" target="_blank">
+<td><form method="get" action="https://www.google.com/finance" name="f" style="display:inline" target="_blank">
     <input name="q" id="searchbox" autocomplete="on" size="10" type="text" value="">
     <input type=submit value="G Quote">
     <input type="hidden" name="hl" value="en"></form>
 </td>
 
-<td><form action="http://finance.yahoo.com/q" accept-charset="utf-8" target="_blank" style="display:inline">
+<td><form action="https://finance.yahoo.com/q" accept-charset="utf-8" target="_blank" style="display:inline">
     <input type="text" name="s" size="10">
     <input type="submit" value="Y Quote"></form>
 </td></tr>
@@ -148,7 +148,7 @@ function roll(ImageName, TickerParameter, TikerNameParameter)
    CurrentTickerName = TikerNameParameter
    document[ImageName].src = GraphParam1 + CurrentTicker + GraphParam2;
    document.getElementById("ChartTitle").innerHTML = CurrentTicker + " - " + CurrentTickerName;
-   document.getElementById("ChartLink").href = "http://www.nasdaq.com/symbol/" + CurrentTicker;
+   document.getElementById("ChartLink").href = "https://www.nasdaq.com/symbol/" + CurrentTicker;
    }
 
 function roll2(ImageName, Param1, Param2)
@@ -297,8 +297,8 @@ function getQuote(data) {
   else {ColorCnt=1; newrow.style.background = '#e6ecf2'; newrow.setAttribute("onMouseOut", "this.style.background='#e6ecf2';", 0); }
   
                               
-  newcell = newrow.insertCell(-1); newcell.innerHTML = '<A target="_new" href="http://www.google.com/finance?q=' + escape(Symbol) + '">' + Symbol + '</A>'; 
-  newcell = newrow.insertCell(-1); newcell.align = "left"; newcell.innerHTML = '<A target="_new" href="http://finance.yahoo.com/q?s=' + escape(Symbol) + '">' + StockName + '</A>';
+  newcell = newrow.insertCell(-1); newcell.innerHTML = '<A target="_new" href="https://www.google.com/finance?q=' + escape(Symbol) + '">' + Symbol + '</A>'; 
+  newcell = newrow.insertCell(-1); newcell.align = "left"; newcell.innerHTML = '<A target="_new" href="https://finance.yahoo.com/q?s=' + escape(Symbol) + '">' + StockName + '</A>';
   newcell = newrow.insertCell(-1); newcell.innerHTML = '<font color="' + color + '">' + Change + '</font>';
   newcell = newrow.insertCell(-1); newcell.innerHTML = Price;
  
