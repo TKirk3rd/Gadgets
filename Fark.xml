@@ -76,7 +76,7 @@
          datatype="hidden"
          default_value="http://www.fark.com/dawww/fark.rss"/>
       <UserPref name="feedTitle8" display_name="Feed 8: Title" datatype="hidden" default_value="Dawww"/>
-      <UserPref name="showDawwwTab" display_name="D'awww tab" datatype="bool" default_value="true"/>
+      <UserPref name="showDawwwTab" display_name="Dawww tab" datatype="bool" default_value="true"/>
 
 	  <UserPref name="feed9"
          display_name="Feed 9: URL"
