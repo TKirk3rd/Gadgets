@@ -386,7 +386,7 @@
                Tab7.style.display="none";
             }
 			
-            if (!prefs.getBool("showDawwTab")) {
+            if (!prefs.getBool("showDawwwTab")) {
                Tab8.style.display="none";
             }
             
