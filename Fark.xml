@@ -28,42 +28,71 @@
          datatype="hidden"
          default_value="http://www.fark.com/fark.rss"/>
       <UserPref name="feedTitle1" display_name="Feed 1: Title" datatype="hidden" default_value="Main"/>      
+	  
 	  <UserPref name="feed2"
          display_name="Feed 2: URL"
          datatype="hidden"
          default_value="http://www.fark.com/discussion/fark.rss"/>
       <UserPref name="feedTitle2" display_name="Feed 2: Title" datatype="hidden" default_value="Discussion"/>
       <UserPref name="showDiscussionTab" display_name="Discussion tab" datatype="bool" default_value="false"/>    
+	  
 	  <UserPref name="feed3"
          display_name="Feed 3: URL"
          datatype="hidden"
          default_value="http://www.fark.com/sports/fark.rss"/>
       <UserPref name="feedTitle3" display_name="Feed 3: Title" datatype="hidden" default_value="Sports"/>
       <UserPref name="showSportsTab" display_name="Sports tab" datatype="bool" default_value="true"/>
-      <UserPref name="feed4"
+      
+	  <UserPref name="feed4"
          display_name="Feed 4: URL"
          datatype="hidden"
          default_value="http://www.fark.com/business/fark.rss"/>
       <UserPref name="feedTitle4" display_name="Feed 4: Title" datatype="hidden" default_value="Business"/>
       <UserPref name="showBusinessTab" display_name="Business tab" datatype="bool" default_value="true"/>
-      <UserPref name="feed5"
+      
+	  <UserPref name="feed5"
          display_name="Feed 5: URL"
          datatype="hidden"
-         default_value="http://www.fark.com/geek/fark.rss"/>
-      <UserPref name="feedTitle5" display_name="Feed 5: Title" datatype="hidden" default_value="Geek"/>
-      <UserPref name="showGeekTab" display_name="Geek tab" datatype="bool" default_value="true"/>
-      <UserPref name="feed6"
+         default_value="http://www.fark.com/stem/fark.rss"/>
+      <UserPref name="feedTitle5" display_name="Feed 5: Title" datatype="hidden" default_value="STEM"/>
+      <UserPref name="showSTEMTab" display_name="STEM tab" datatype="bool" default_value="true"/>
+      
+	  <UserPref name="feed6"
          display_name="Feed 6: URL"
          datatype="hidden"
          default_value="http://www.fark.com/entertainment/fark.rss"/>
       <UserPref name="feedTitle6" display_name="Feed 6: Title" datatype="hidden" default_value="Entertainment"/>
       <UserPref name="showEntertainmentTab" display_name="Entertainment tab" datatype="bool" default_value="true"/>
-         <UserPref name="feed7"
+
+	  <UserPref name="feed7"
          display_name="Feed 7: URL"
          datatype="hidden"
+         default_value="http://www.fark.com/fandom/fark.rss"/>
+      <UserPref name="feedTitle7" display_name="Feed 7: Title" datatype="hidden" default_value="Fandom"/>
+      <UserPref name="showFandomTab" display_name="Fandom tab" datatype="bool" default_value="true"/>
+
+	  <UserPref name="feed8"
+         display_name="Feed 8: URL"
+         datatype="hidden"
+         default_value="http://www.fark.com/dawww/fark.rss"/>
+      <UserPref name="feedTitle8" display_name="Feed 8: Title" datatype="hidden" default_value="Dawww"/>
+      <UserPref name="showDawwwTab" display_name="D'awww tab" datatype="bool" default_value="true"/>
+
+	  <UserPref name="feed9"
+         display_name="Feed 9: URL"
+         datatype="hidden"
+         default_value="http://www.fark.com/food/fark.rss"/>
+      <UserPref name="feedTitle9" display_name="Feed 9: Title" datatype="hidden" default_value="Food"/>
+      <UserPref name="showFoodTab" display_name="Food tab" datatype="bool" default_value="true"/>
+      
+	  <UserPref name="feed10"
+         display_name="Feed 10: URL"
+         datatype="hidden"
          default_value="http://www.fark.com/politics/fark.rss"/>
-      <UserPref name="feedTitle7" display_name="Feed 7: Title" datatype="hidden" default_value="Politics"/>
+      <UserPref name="feedTitle10" display_name="Feed 10: Title" datatype="hidden" default_value="Politics"/>
       <UserPref name="showPoliticsTab" display_name="Politics tab" datatype="bool" default_value="true"/>
+	  
+
       
 	  <UserPref name="entries" display_name="# of Entries" datatype="enum" default_value="5">
          <EnumValue value="3"/>
@@ -150,6 +179,7 @@
 			.topic54 {background-position: 0 -702px;} /* Fake */
 			.topic55 {background-position: 0 -715px;} /* WoofDay */
 			.topic56 {background-position: 0 -728px;} /* Vintage */
+			.topic57 {background-position: 0 -741px;} /* Fartiste */
 
 
 			
@@ -263,6 +293,9 @@
             var ft5 = _trim(prefs.getString("feedTitle5"));
             var ft6 = _trim(prefs.getString("feedTitle6"));
             var ft7 = _trim(prefs.getString("feedTitle7"));
+			var ft8 = _trim(prefs.getString("feedTitle8"));
+			var ft9 = _trim(prefs.getString("feedTitle9"));
+			var ft10 = _trim(prefs.getString("feedTitle10"));
          
             if (f1 != "") {
                tabs.addDynamicTab(((ft1 == "") ? "Feed 1" : ft1), _IG_Callback(callbackTab, f1));
@@ -273,38 +306,56 @@
             if (f2 != "") {
                tabs.addDynamicTab(((ft2 == "") ? "Feed 2" : ft2), _IG_Callback(callbackTab, f2));
                var Tab2 = tabs.getTabs()[1].getNameContainer();
-               Tab2.style.backgroundColor = "#ee2200";
+               Tab2.style.backgroundColor = "#666699";
                Tab2.style.color = "#ffffff";
             }
             if (f3 != "") {
                tabs.addDynamicTab(((ft3 == "") ? "Feed 3" : ft3), _IG_Callback(callbackTab, f3));
                var Tab3 = tabs.getTabs()[2].getNameContainer();
-               Tab3.style.backgroundColor = "#22396b";
+               Tab3.style.backgroundColor = "#666699";
                Tab3.style.color = "#ffffff";
             }
             if (f4 != "") {
                tabs.addDynamicTab(((ft4 == "") ? "Feed 4" : ft4), _IG_Callback(callbackTab, f4));
                var Tab4 = tabs.getTabs()[3].getNameContainer();
-               Tab4.style.backgroundColor = "#008800";
+               Tab4.style.backgroundColor = "#666699";
                Tab4.style.color = "#ffffff";
             }
             if (f5 != "") {
                tabs.addDynamicTab(((ft5 == "") ? "Feed 5" : ft5), _IG_Callback(callbackTab, f5));
                var Tab5 = tabs.getTabs()[4].getNameContainer();
-               Tab5.style.backgroundColor = "#bb0000";
+               Tab5.style.backgroundColor = "#666699";
                Tab5.style.color = "#ffffff";
             }
             if (f6 != "") {
                tabs.addDynamicTab(((ft6 == "") ? "Feed 6" : ft6), _IG_Callback(callbackTab, f6));
                var Tab6 = tabs.getTabs()[5].getNameContainer();
-               Tab6.style.backgroundColor = "#009999";
+               Tab6.style.backgroundColor = "#666699";
                Tab6.style.color = "#ffffff";
             }
             if (f7 != "") {
                tabs.addDynamicTab(((ft7 == "") ? "Feed 7" : ft7), _IG_Callback(callbackTab, f7));
                var Tab7 = tabs.getTabs()[6].getNameContainer();
-               Tab7.style.backgroundColor = "#9003a3";
+               Tab7.style.backgroundColor = "#666699";
                Tab7.style.color = "#ffffff";
+            }
+            if (f8 != "") {
+               tabs.addDynamicTab(((ft7 == "") ? "Feed 8" : ft8), _IG_Callback(callbackTab, f8));
+               var Tab8 = tabs.getTabs()[7].getNameContainer();
+               Tab8.style.backgroundColor = "#666699";
+               Tab8.style.color = "#ffffff";
+            }
+            if (f9 != "") {
+               tabs.addDynamicTab(((ft9 == "") ? "Feed 9" : ft9), _IG_Callback(callbackTab, f9));
+               var Tab9 = tabs.getTabs()[8].getNameContainer();
+               Tab9.style.backgroundColor = "#666699";
+               Tab9.style.color = "#ffffff";
+            }
+            if (f10 != "") {
+               tabs.addDynamicTab(((ft10 == "") ? "Feed 10" : ft10), _IG_Callback(callbackTab, f10));
+               var Tab10 = tabs.getTabs()[7].getNameContainer();
+               Tab10.style.backgroundColor = "#666699";
+               Tab10.style.color = "#ffffff";
             }
                           
 
@@ -320,7 +371,7 @@
                Tab4.style.display="none";
             }
 
-            if (!prefs.getBool("showGeekTab")) {
+            if (!prefs.getBool("showSTEMTab")) {
                Tab5.style.display="none";
             }
 
@@ -328,12 +379,21 @@
                Tab6.style.display="none";
             }
 
-            if (!prefs.getBool("showPoliticsTab")) {
+            if (!prefs.getBool("showFandomTab")) {
                Tab7.style.display="none";
             }
-
-
-
+			
+            if (!prefs.getBool("showDawwTab")) {
+               Tab8.style.display="none";
+            }
+            
+			if (!prefs.getBool("showFoodTab")) {
+               Tab9.style.display="none";
+            }
+            
+			if (!prefs.getBool("showPoliticsTab")) {
+               Tab10.style.display="none";
+            }
             }; //end function init  
 
             /**
@@ -572,6 +632,9 @@
 						   break;
 						case '[Vintage]':
 						   topicicon = '<span class="ttag topic56"></span>';
+						   break;
+					   case '[Fartiste]':
+						   topicicon = '<span class="ttag topic57"></span>';
 						   break;
                         default:
                            topicicon = topic;
