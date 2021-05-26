@@ -286,6 +286,9 @@
             var f5 = _trim(prefs.getString("feed5"));
             var f6 = _trim(prefs.getString("feed6"));
             var f7 = _trim(prefs.getString("feed7"));
+			var f8 = _trim(prefs.getString("feed8"));
+			var f9 = _trim(prefs.getString("feed9"));
+			var f10 = _trim(prefs.getString("feed10"));
             var ft1 = _trim(prefs.getString("feedTitle1"));
             var ft2 = _trim(prefs.getString("feedTitle2"));
             var ft3 = _trim(prefs.getString("feedTitle3"));
@@ -340,7 +343,7 @@
                Tab7.style.color = "#ffffff";
             }
             if (f8 != "") {
-               tabs.addDynamicTab(((ft7 == "") ? "Feed 8" : ft8), _IG_Callback(callbackTab, f8));
+               tabs.addDynamicTab(((ft8 == "") ? "Feed 8" : ft8), _IG_Callback(callbackTab, f8));
                var Tab8 = tabs.getTabs()[7].getNameContainer();
                Tab8.style.backgroundColor = "#666699";
                Tab8.style.color = "#ffffff";
@@ -353,7 +356,7 @@
             }
             if (f10 != "") {
                tabs.addDynamicTab(((ft10 == "") ? "Feed 10" : ft10), _IG_Callback(callbackTab, f10));
-               var Tab10 = tabs.getTabs()[7].getNameContainer();
+               var Tab10 = tabs.getTabs()[9].getNameContainer();
                Tab10.style.backgroundColor = "#666699";
                Tab10.style.color = "#ffffff";
             }
