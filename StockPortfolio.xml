@@ -290,7 +290,8 @@ function getQuote(data) {
 
   newrow.align = "right";
   
-  var TempText = "this.style.background='#cad9eb'; //roll('Chart', '" + Symbol + "', '" + StockName + "')";
+  var TempText = "this.style.background='#cad9eb'; 
+  roll('Chart', '" + Symbol + "', '" + StockName + "')";
   newrow.setAttribute("onmouseover", TempText, 0); 
    
   if(ColorCnt == 1) {ColorCnt=0; newrow.style.background = '#e8eef7'; newrow.setAttribute("onMouseOut", "this.style.background='#e8eef7';", 0); }  
