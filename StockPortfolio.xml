@@ -47,7 +47,7 @@
 <a href="https://docs.google.com/document/d/e/2PACX-1vS8zLX6WaYjmdFV9g3eWnP57nsD6eSFKn3htFlpYsx1op3bgYa9-tqWzmRx_-qp8YYJBJdXrZ05_0mv/pub" target="_blank" ><span style="font-size:12px; font-family:sans-serif;">Click Here for Stock List Customization Instructions...</span></a><br>
 
 <textarea name=watchlist id=watchlist style="width:390" rows=2 wrap=soft>
-https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo8j_mEiMYyv_TD9VQ7sfyMpLETe21cmvRrtAp80lFEM1EyLR/pub?output=csv
+https://docs.google.com/spreadsheets/d/e/2PACX-1vRs-XSvgirwpwjxkEp_SwIQiAkcsbiJixlSuTOxm0yRcl_88TaxzSoDKPO53MGBXwVibajqFsLAPmpI/pub?output=csv
 </textarea>
 <br>
 <input type="button" name="Add" value="Update" onClick="add();">  
@@ -231,12 +231,12 @@ function setCookie(c_name,value,expiredays){
   document.cookie=c_name+ "=" +escape(value)+((expiredays==null) ? "" : "; expires="+exdate.toGMTString());
 }
 
-//https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo8j_mEiMYyv_TD9VQ7sfyMpLETe21cmvRrtAp80lFEM1EyLR/pub?output=csv
+//https://docs.google.com/spreadsheets/d/e/2PACX-1vRs-XSvgirwpwjxkEp_SwIQiAkcsbiJixlSuTOxm0yRcl_88TaxzSoDKPO53MGBXwVibajqFsLAPmpI/pub?output=csv
 function getExecCheckSymbol(arg1){
     try{
         arg1 = arg1.replace(/%255E/g, "^")
         arg1 = arg1.replace(/\n/g, "")
-        var execCmdStart = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo8j_mEiMYyv_TD9VQ7sfyMpLETe21cmvRrtAp80lFEM1EyLR/pub?output=csv";        
+        var execCmdStart = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRs-XSvgirwpwjxkEp_SwIQiAkcsbiJixlSuTOxm0yRcl_88TaxzSoDKPO53MGBXwVibajqFsLAPmpI/pub?output=csv";        
         execCmdStart = arg1;
         //alert(execCmdStart);
         
