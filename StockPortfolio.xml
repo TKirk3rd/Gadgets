@@ -146,7 +146,7 @@ function roll(ImageName, TickerParameter, TikerNameParameter)
    {
    CurrentTicker = TickerParameter;
    CurrentTickerName = TikerNameParameter
-   document[ImageName].src = GraphParam1 + CurrentTicker + GraphParam2;
+   document[ImageName].src = GraphParam1 + CurrentTicker;
    document.getElementById("ChartTitle").innerHTML = CurrentTicker + " - " + CurrentTickerName;
    document.getElementById("ChartLink").href = "http://www.nasdaq.com/symbol/" + CurrentTicker;
    }
