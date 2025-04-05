@@ -100,7 +100,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
     <input type="hidden" name="hl" value="en"></form>
 </td>
 
-<td><form action="http://finance.yahoo.com/q" accept-charset="utf-8" target="_blank" style="display:inline">
+<td><form action="http://finance.yahoo.com/quote" accept-charset="utf-8" target="_blank" style="display:inline">
     <input type="text" name="s" size="10">
     <input type="submit" value="Y Quote"></form>
 </td></tr>
@@ -298,7 +298,7 @@ function getQuote(data) {
   
                               
   newcell = newrow.insertCell(-1); newcell.innerHTML = '<A target="_new" href="http://www.google.com/finance?q=' + escape(Symbol) + '">' + Symbol + '</A>'; 
-  newcell = newrow.insertCell(-1); newcell.align = "left"; newcell.innerHTML = '<A target="_new" href="http://finance.yahoo.com/q?s=' + escape(Symbol) + '">' + StockName + '</A>';
+  newcell = newrow.insertCell(-1); newcell.align = "left"; newcell.innerHTML = '<A target="_new" href="https://finance.yahoo.com/quote/' + escape(Symbol) + '">' + StockName + '</A>';
   newcell = newrow.insertCell(-1); newcell.innerHTML = '<font color="' + color + '">' + Change + '</font>';
   newcell = newrow.insertCell(-1); newcell.innerHTML = Price;
  
