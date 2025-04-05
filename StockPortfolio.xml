@@ -94,7 +94,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQereFQS-d4BxbwgSmYSLY9Zsq8ZzKYo
 
 <tr height=5></tr>
 <tr>
-<td><form method="get" action="http://www.google.com/finance" name="f" style="display:inline" target="_blank">
+<td colspan=2 center><form method="get" action="http://www.google.com/finance" name="f" style="display:inline" target="_blank">
     <input name="q" id="searchbox" autocomplete="on" size="10" type="text" value="">
     <input type=submit value="G Quote">
     <input type="hidden" name="hl" value="en"></form>
