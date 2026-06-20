@@ -1,11 +1,1 @@
-reddit.com###xpromo-small-header
 
-reddit.com##app-upsell-blocking-bottom-sheet-direct:style(display: none !important; visibility: hidden !important; pointer-events: none !important;) reddit.com###app-upsell-blocking-bottom-sheet-direct:style(display: none !important; visibility: hidden !important; pointer-events: none !important;) reddit.com##rpl-bottom-sheet#app-upsell-blocking-bottom-sheet-direct:style(display: none !important; visibility: hidden !important; pointer-events: none !important;) reddit.com##.rpl-bottom-sheet#app-upsell-blocking-bottom-sheet-direct:style(display: none !important; visibility: hidden !important; pointer-events: none !important;)
-
-reddit.com##app-upsell-blocking-bottom-sheet-seo:style(display: none !important; visibility: hidden !important; pointer-events: none !important;) reddit.com###app-upsell-blocking-bottom-sheet-seo:style(display: none !important; visibility: hidden !important; pointer-events: none !important;) reddit.com##rpl-bottom-sheet#app-upsell-blocking-bottom-sheet-seo:style(display: none !important; visibility: hidden !important; pointer-events: none !important;) reddit.com##.rpl-bottom-sheet#app-upsell-blocking-bottom-sheet-seo:style(display: none !important; visibility: hidden !important; pointer-events: none !important;)
-
-reddit.com##[id="app-upsell-blocking-bottom-sheet-"]:style(display: none !important; visibility: hidden !important; pointer-events: none !important;)
-
-reddit.com##body.rpl-scroll-lock:style(overflow: auto !important; touch-action: auto !important;) reddit.com##body.scroll-is-blocked:style(overflow: auto !important; touch-action: auto !important;)
-
-www.reddit.com##+js(rc, scroll-is-blocked, ,stay)
